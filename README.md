@@ -1,3 +1,3 @@
-# [mutino](https://truegelen.github.io/mutino/dist/)
-[Link to this page](https://truegelen.github.io/mutino/dist/)
+# [mutino](https://truegelen.github.io/scoob/dist/)
+[Link to this page](https://truegelen.github.io/scoob/dist/)
 --------------------------------
