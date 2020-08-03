@@ -10,6 +10,28 @@
 </head>
 
 <body class="page">
+  <div class="mobMenu" id="mobMenu">
+    <ul>
+      <li class="mobMenu_active">
+        Главная
+      </li>
+      <li>
+        О фильме
+      </li>
+      <li>
+        Видео
+      </li>
+    </ul>
+  </div>
+
+  <div class="burger" id="burger">
+    <div class="burger__lineBlock">
+      <div class="burger__line"></div>
+      <div class="burger__line"></div>
+      <div class="burger__line"></div>
+    </div>
+  </div>
+
   <section class="home">
     <picture class="home__bg">
       <source srcset="img/main/main_bg_tablet.png" media="(max-width: 1024px)">
@@ -20,13 +42,13 @@
     <div class="home__content">
       <menu class="home__menu">
         <ul>
-          <li class="button button_active">
+          <li class="button button_nav button_active activeScreen noselect">
             <p>Главная</p>
           </li>
-          <li class="button">
+          <li class="button button_nav noselect">
             <p>О фильме</p>
           </li>
-          <li class="button">
+          <li class="button button_nav noselect">
             <p>Видео</p>
           </li>
         </ul>
@@ -40,44 +62,54 @@
           <img src="img/main/title_desktop.png" alt="title">
         </picture>
 
-        <p class="home__subTitle home__subtitle_2">смотрите с 14 августа</p>
+        <p class="home__subTitle home__subTitle_2">смотрите с 14 августа</p>
       </div>
-
+      <!-- <div class="home__buttonsContainer"></div> -->
       <div class="home__buttons">
-        <div class="button button_okko home__button">
+        <div class="button button_place button_okko home__button noselect">
           <img src="img/logos/okko.png" alt="okko logo">
         </div>
-        <div class="button button_ivi home__button">
+        <div class="button button_place button_ivi home__button noselect">
           <img src="img/logos/ivi.png" alt="ivi logo">
         </div>
-        <div class="button button_appleTV home__button">
+        <div class="button button_place button_appleTV home__button noselect">
           <img src="img/logos/appleTV.png" alt="apple tv logo">
         </div>
-        <div class="button button_kinopoisk home__button">
+        <div class="button button_place button_kinopoisk home__button noselect">
           <img src="img/logos/kinopoisk.png" alt="kinopoisk logo">
         </div>
-        <div class="button button_wink home__button">
+        <div class="button button_place button_wink home__button noselect">
           <img src="img/logos/wink.png" alt="wink logo">
         </div>
-        <div class="button button_megogo home__button">
+        <div class="button button_place button_megogo home__button noselect">
           <img src="img/logos/megogo.png" alt="megogo logo">
         </div>
-        <div class="button button_tvzavr home__button">
+        <div class="button button_place button_tvzavr home__button noselect">
           <img src="img/logos/tvzavr.png" alt="tvzavr logo">
         </div>
-        <div class="button button_megafonTV home__button">
+        <div class="button button_place button_megafonTV home__button noselect">
           <img src="img/logos/megafonTV.png" alt="megafon tv logo">
         </div>
-        <div class="button button_googlePlay home__button">
+        <div class="button button_place button_googlePlay home__button noselect">
           <img src="img/logos/googlePlay.png" alt="google play logo">
         </div>
-        <div class="button button_bilineTV home__button">
+        <div class="button button_place button_bilineTV home__button noselect">
           <img src="img/logos/biline.png" alt="biline tv logo">
         </div>
       </div>
     </div>
   </section>
 
+  <section class="video">
+    <div class="video__overlay">
+      <div class="video__frameWrap">
+        <iframe data-src="https://www.youtube.com/embed/48odYXASTec"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <p class="ageControl">6+</p>
   <p class="copyRight">SCOOB! TM & © Warner Bros. Entertainment Inc. SCOOBY-DOO TM & © Hanna-Barbera Productions</p>
   <script src="js/bundle.js"></script>
 </body>

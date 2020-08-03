@@ -1,3 +1,5 @@
+import './burger'
+import './menuControl'
 // import './slider'
 // import './scrollTo'
 // import './parallax'
